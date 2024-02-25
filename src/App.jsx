@@ -8,6 +8,8 @@ import SecondaryTab from "./components/SecondaryTab";
 import Tags from "./components/Tags";
 import RoutePath from "./components/RoutePath";
 import ProductCard from "./components/ProductCard";
+import Footer from "./footer/Footer";
+import SignUp from "./footer/SignUp";
 
 export default function App() {
   return (
@@ -25,6 +27,8 @@ export default function App() {
         <RoutePath />
         <ProductCard />
       </Body>
+      <SignUp />
+      <Footer />
     </>
   );
 }
