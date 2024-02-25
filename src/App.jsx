@@ -10,6 +10,7 @@ import RoutePath from "./components/RoutePath";
 import ProductCard from "./components/ProductCard";
 import Footer from "./footer/Footer";
 import SignUp from "./footer/SignUp";
+import RelatedProductCard from "./components/RelatedProductCard";
 
 export default function App() {
   return (
@@ -21,13 +22,21 @@ export default function App() {
         <Category text={"Today's deals"} />
       </Navbar>
       <Body>
-        <Header />
+        <Header
+          className={"heading"}
+          heading={"Best Website builders in the WORLD"}
+        />
         <SecondaryTab />
         <Tags />
         <RoutePath />
         <ProductCard />
-      </Body>
+      <Header
+        className={"relatedHeading"}
+        heading={"Related deals you might like"}
+      />
+        <RelatedProductCard />
       <SignUp />
+      </Body>
       <Footer />
     </>
   );

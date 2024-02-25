@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function Header() {
-  return <h1 className="heading">Best Website builders in the WORLD</h1>;
+export default function Header({heading, className}) {
+  return <h1 className={className}>{heading}</h1>;
 }

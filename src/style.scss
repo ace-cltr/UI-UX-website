@@ -184,14 +184,14 @@ body {
   text-align: center;
   display: flex;
   justify-content: center;
-  margin: 10px 100px;
+  margin: 30px;
   .footer-head {
     font-weight: 370;
   }
   .input-group {
     display: flex;
     margin-top: 10px;
-    margin-left: 13rem;
+    margin-left: 8rem;
     height: 45px;
     input[type="email"] {
       flex: 1;
@@ -220,4 +220,92 @@ body {
       }
     }
   }
+}
+
+.related-cards-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55rem;
+  margin-left: 50px;
+  height: 32rem;
+}
+// here related products stats
+.product-card-related {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ebebeb;
+  border-radius: 8px;
+  overflow: hidden;
+
+  margin: 10px 1rem;
+  padding: 12px;
+}
+
+.product-image img {
+  width: 100%;
+  height: auto;
+}
+
+.product-tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background-color: #b7b6b6;
+  color: #333;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 4px;
+}
+
+.product-name {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.product-detail {
+  margin-bottom: 10px;
+}
+
+.product-price {
+  margin-bottom: 10px;
+}
+
+.main-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.old-price {
+  color: #999;
+  text-decoration: line-through;
+  margin: 5px;
+}
+
+.discount {
+  color: green;
+  font-weight: bold;
+}
+
+.view-details-button {
+  background-color: #1b88f4;
+  color: white;
+  border: none;
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.view-details-button:hover {
+  background-color: #0f74d9;
+}
+
+.relatedHeading {
+  font-size: 40px;
+  font-weight: 400;
 }
